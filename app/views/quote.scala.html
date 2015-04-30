@@ -1,0 +1,20 @@
+@(quote: beans.Quote)
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Quote</title>
+    <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
+    <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
+    <script src="@routes.Assets.at("javascripts/hello.js")" type="text/javascript"></script>
+    </head>
+    <body>
+        <p>Name: @quote.name</p>
+        <p>Symbol: @quote.symbol</p>
+        <p>Change: @quote.change</p>
+        <p>Change Percent: @quote.changePrcnt</p>
+        <p>Price: @quote.price</p>
+        <p>Market Cap: @quote.marketCap</p>
+    </body>
+</html>

@@ -3,10 +3,10 @@ package controllers.requests;
 /**
  * Created by anhngo on 4/29/15.
  */
-public class QuoteRequest {
+public class TickerRequest {
     public final String symbol;
 
-    public QuoteRequest(String symbol) {
+    public TickerRequest(String symbol) {
         this.symbol = symbol;
     }
 }

@@ -1,32 +1,48 @@
 package controllers;
 
-import controllers.beans.Quote;
-import controllers.requests.QuoteRequest;
-import controllers.services.IStockService;
-import controllers.services.StockServiceImpl;
-import play.*;
+import controllers.beans.TickerDim;
+import controllers.beans.TickerFact;
+import controllers.requests.TickerRequest;
+import controllers.services.ITickerService;
+import controllers.services.TickerServiceImpl;
 import play.libs.F;
 import play.mvc.*;
 
 import views.html.*;
 
+import java.util.List;
+
 public class Application extends Controller {
 
-    private static IStockService stockService = new StockServiceImpl();
+    private static ITickerService tickerService = new TickerServiceImpl();
 
     public static Result index() {
         return ok(index.render("Your new application is ready."));
     }
 
-    public static F.Promise<Result> getQuote(String symbol) {
-        QuoteRequest request = new QuoteRequest(symbol);
-        return stockService
-                .getQuote(request)
+    public static F.Promise<Result> getTicker(String symbol) {
+        TickerRequest request = new TickerRequest(symbol);
+        return tickerService
+                .getTicker(request)
                 .map(
-                        new F.Function<Quote, Result>() {
+                        new F.Function<TickerFact, Result>() {
                             @Override
-                            public Result apply(Quote quoteResult) throws Throwable {
-                                return ok(quote.render(quoteResult));
+                            public Result apply(TickerFact tickerResult) throws Throwable {
+                                return ok(ticker.render(tickerResult));
+                            }
+                        }
+                );
+    }
+
+    public static F.Promise<Result> getTickersList() {
+        TickerRequest request = new TickerRequest(null);
+        return tickerService
+                .getTickersList(request)
+                .map(
+                        new F.Function<List<TickerDim>, Result>() {
+                            @Override
+                            public Result apply(List<TickerDim> tickersListResult) throws Throwable {
+                                return ok(tickerslist.render(tickersListResult));
                             }
                         }
                 );

@@ -2,6 +2,7 @@ package controllers;
 
 import controllers.beans.TickerDim;
 import controllers.beans.TickerFact;
+import controllers.libs.Constant;
 import controllers.requests.TickerRequest;
 import controllers.services.ITickerService;
 import controllers.services.TickerServiceImpl;
@@ -21,7 +22,7 @@ public class Application extends Controller {
     }
 
     public static F.Promise<Result> getTicker(String symbol) {
-        TickerRequest request = new TickerRequest(symbol);
+        TickerRequest request = new TickerRequest(symbol, null, null);
         return tickerService
                 .getTicker(request)
                 .map(
@@ -34,8 +35,13 @@ public class Application extends Controller {
                 );
     }
 
-    public static F.Promise<Result> getTickersList() {
-        TickerRequest request = new TickerRequest(null);
+    public static F.Promise<Result> getTickersList(String marketCapType, Boolean isPublic) {
+        TickerRequest request =
+                new TickerRequest(
+                        null
+                        , Constant.MarketCapType.valueOf(marketCapType)
+                        , isPublic
+                );
         return tickerService
                 .getTickersList(request)
                 .map(

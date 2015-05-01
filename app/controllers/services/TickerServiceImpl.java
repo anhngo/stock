@@ -18,7 +18,7 @@ import java.util.List;
  */
 public class TickerServiceImpl implements ITickerService {
     @Override
-    public F.Promise<List<TickerDim>> getTickersList(TickerRequest request) {
+    public F.Promise<List<TickerDim>> getTickersList(final TickerRequest request) {
         String nasdaqUrl = Constant.NASDAQ_COMPANIES_LISTING_URL;
         return WS.url(nasdaqUrl).get().<List<TickerDim>>map(
                 new F.Function<WSResponse, List<TickerDim>>() {
@@ -36,7 +36,7 @@ public class TickerServiceImpl implements ITickerService {
                             line = line.substring(1, line.length() - 3);
                             String[] items = line.split("\",\"");
                             if (items.length == 8) {
-                                tickers.add(
+                                TickerDim tickerDim =
                                         TickerDim.build(
                                                 items[0]
                                                 , items[1]
@@ -44,8 +44,20 @@ public class TickerServiceImpl implements ITickerService {
                                                 , "n/a".equals(items[4]) ? null : new Integer(items[4])
                                                 , items[5]
                                                 , items[6]
-                                        )
-                                );
+                                        );
+
+                                // applying filter
+                                boolean isIncluded = true;
+                                if (request.isPublic != null) {
+                                    isIncluded = request.isPublic == (tickerDim.ipoYear != null);
+                                }
+                                if (request.marketCapType != null) {
+                                    isIncluded = isIncluded && request.marketCapType.equals(tickerDim.marketCapType);
+                                }
+
+                                if (isIncluded) {
+                                    tickers.add(tickerDim);
+                                }
                             }
                         }
                         return tickers;
@@ -55,7 +67,7 @@ public class TickerServiceImpl implements ITickerService {
     }
 
     @Override
-    public F.Promise<TickerFact> getTicker(TickerRequest request) {
+    public F.Promise<TickerFact> getTicker(final TickerRequest request) {
         String financeUrl = String.format("%s/symbol/%s?view=detail&format=json", Constant.YAHOO_FINANCE_BASE_URL, request.symbol);
         return WS.url(financeUrl).get().<TickerFact>map(
                 new F.Function<WSResponse, TickerFact>() {

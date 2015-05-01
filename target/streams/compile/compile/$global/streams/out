@@ -1,0 +1,30 @@
+[0m[[0mdebug[0m] [0mInvalidating /Users/anhngo/pergit/stock/target/scala-2.11/classes/controllers/services/TickerServiceImpl$1.class: stamp changed from lastModified(1430444817000) to lastModified(1430444973000)[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/anhngo/pergit/stock/target/scala-2.11/classes/controllers/services/TickerServiceImpl$2.class: stamp changed from lastModified(1430444817000) to lastModified(1430444973000)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set(/Users/anhngo/pergit/stock/target/scala-2.11/classes/controllers/services/TickerServiceImpl$1.class, /Users/anhngo/pergit/stock/target/scala-2.11/classes/controllers/services/TickerServiceImpl$2.class)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set(/Users/anhngo/pergit/stock/app/controllers/services/TickerServiceImpl.java)[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/anhngo/pergit/stock/app/controllers/services/TickerServiceImpl.java)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to /Users/anhngo/pergit/stock/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mAttempting to call javac directly...[0m
+[0m[[0mdebug[0m] [0mcom.sun.tools.javac.Main not found with appropriate method signature; forking javac instead[0m
+[0m[[0mdebug[0m] [0mForking javac: javac @/var/folders/g3/br1g32px5cd71jtb516m7wcm002kvl/T/sbt_fc311ae4/argfile[0m
+[0m[[0mdebug[0m] [0mjavac returned exit code: 0[0m
+[0m[[0mdebug[0m] [0mJava compilation took 0.747983189 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.013434607 s[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

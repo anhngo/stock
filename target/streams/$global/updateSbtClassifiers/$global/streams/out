@@ -4536,9 +4536,9 @@
 [debug] 	[NOT REQUIRED] asm#asm;3.1!asm.jar
 [debug] 	[NOT REQUIRED] jfree#jcommon;1.0.12!jcommon.jar
 [debug] 	[NOT REQUIRED] jfree#jfreechart;1.0.8a!jfreechart.jar
-[debug] :: resolution report :: resolve 3969ms :: artifacts dl 74ms
+[debug] :: resolution report :: resolve 3938ms :: artifacts dl 72ms
 [debug] 	report for stock#stock$sbt_2.11;1.0-SNAPSHOT default produced in /Users/anhngo/pergit/stock/target/resolution-cache/reports/stock-stock$sbt_2.11-default.xml
-[debug] 	resolve done (3969ms resolve - 74ms download)
+[debug] 	resolve done (3938ms resolve - 72ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: stock#stock$sources_2.11;1.0-SNAPSHOT
 [debug] 	confs: [default]
@@ -6095,6 +6095,6 @@
 [debug] 	[NOT REQUIRED] com.typesafe.sbt#sbt-rjs;1.0.1!sbt-rjs.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.sbt#sbt-digest;1.0.0!sbt-digest.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.sbt#sbt-mocha;1.0.0!sbt-mocha.jar(src)
-[debug] :: resolution report :: resolve 1394ms :: artifacts dl 76ms
+[debug] :: resolution report :: resolve 1310ms :: artifacts dl 81ms
 [debug] 	report for stock#stock$sources_2.11;1.0-SNAPSHOT default produced in /Users/anhngo/pergit/stock/target/resolution-cache/reports/stock-stock$sources_2.11-default.xml
-[debug] 	resolve done (1394ms resolve - 76ms download)
+[debug] 	resolve done (1310ms resolve - 81ms download)

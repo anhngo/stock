@@ -1,6 +1,6 @@
 // @SOURCE:/Users/anhngo/pergit/stock/conf/routes
-// @HASH:7ab509a29c45c27ad3910b7b11470d72b8d7f0d3
-// @DATE:Thu Apr 30 16:42:13 PDT 2015
+// @HASH:ec30b95a5a3a546e4b838102a3eebde9b36ccc76
+// @DATE:Fri May 08 07:48:45 PDT 2015
 
 package controllers;
 

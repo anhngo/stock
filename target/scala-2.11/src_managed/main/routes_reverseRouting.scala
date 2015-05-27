@@ -1,6 +1,6 @@
 // @SOURCE:/Users/anhngo/pergit/stock/conf/routes
-// @HASH:7ab509a29c45c27ad3910b7b11470d72b8d7f0d3
-// @DATE:Thu Apr 30 16:42:13 PDT 2015
+// @HASH:ec30b95a5a3a546e4b838102a3eebde9b36ccc76
+// @DATE:Fri May 08 07:48:45 PDT 2015
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -41,13 +41,6 @@ def at(file:String): Call = {
 class ReverseApplication {
 
 
-// @LINE:8
-def getTickersList(): Call = {
-   import ReverseRouteContext.empty
-   Call("GET", _prefix + { _defaultPrefix } + "tickers")
-}
-                        
-
 // @LINE:7
 def getTicker(symbol:String): Call = {
    import ReverseRouteContext.empty
@@ -59,6 +52,13 @@ def getTicker(symbol:String): Call = {
 def index(): Call = {
    import ReverseRouteContext.empty
    Call("GET", _prefix)
+}
+                        
+
+// @LINE:8
+def getTickersList(marketCapType:String, isPublic:Boolean): Call = {
+   import ReverseRouteContext.empty
+   Call("GET", _prefix + { _defaultPrefix } + "tickers" + queryString(List(Some(implicitly[QueryStringBindable[String]].unbind("marketCapType", marketCapType)), Some(implicitly[QueryStringBindable[Boolean]].unbind("isPublic", isPublic)))))
 }
                         
 
@@ -99,17 +99,6 @@ def at : JavascriptReverseRoute = JavascriptReverseRoute(
 class ReverseApplication {
 
 
-// @LINE:8
-def getTickersList : JavascriptReverseRoute = JavascriptReverseRoute(
-   "controllers.Application.getTickersList",
-   """
-      function() {
-      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "tickers"})
-      }
-   """
-)
-                        
-
 // @LINE:7
 def getTicker : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Application.getTicker",
@@ -127,6 +116,17 @@ def index : JavascriptReverseRoute = JavascriptReverseRoute(
    """
       function() {
       return _wA({method:"GET", url:"""" + _prefix + """"})
+      }
+   """
+)
+                        
+
+// @LINE:8
+def getTickersList : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.Application.getTickersList",
+   """
+      function(marketCapType,isPublic) {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "tickers" + _qS([(""" + implicitly[QueryStringBindable[String]].javascriptUnbind + """)("marketCapType", marketCapType), (""" + implicitly[QueryStringBindable[Boolean]].javascriptUnbind + """)("isPublic", isPublic)])})
       }
    """
 )
@@ -164,12 +164,6 @@ def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.
 class ReverseApplication {
 
 
-// @LINE:8
-def getTickersList(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.Application.getTickersList(), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "getTickersList", Seq(), "GET", """""", _prefix + """tickers""")
-)
-                      
-
 // @LINE:7
 def getTicker(symbol:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Application.getTicker(symbol), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "getTicker", Seq(classOf[String]), "GET", """""", _prefix + """tickers/$symbol<[^/]+>""")
@@ -179,6 +173,12 @@ def getTicker(symbol:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.Hand
 // @LINE:6
 def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Application.index(), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "index", Seq(), "GET", """ Home page""", _prefix + """""")
+)
+                      
+
+// @LINE:8
+def getTickersList(marketCapType:String, isPublic:Boolean): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Application.getTickersList(marketCapType, isPublic), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "getTickersList", Seq(classOf[String], classOf[Boolean]), "GET", """""", _prefix + """tickers""")
 )
                       
 

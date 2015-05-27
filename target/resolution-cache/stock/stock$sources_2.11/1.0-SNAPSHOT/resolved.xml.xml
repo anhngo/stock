@@ -4,7 +4,7 @@
 		module="stock$sources_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20150430110523"
+		publication="20150527101724"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>

@@ -4,7 +4,7 @@
 		module="stock$sources_javadoc_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20150430110525"
+		publication="20150527101726"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

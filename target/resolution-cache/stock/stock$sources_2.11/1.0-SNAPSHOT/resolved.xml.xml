@@ -4,7 +4,7 @@
 		module="stock$sources_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20150527101724"
+		publication="20150704130303"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>
@@ -176,6 +176,9 @@
 		</dependency>
 		<dependency org="args4j" name="args4j" rev="2.0.16" transitive="false" conf="default->default(compile)">
 			<artifact name="args4j" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.json" name="json" rev="20090211" transitive="false" conf="default->default(compile)">
+			<artifact name="json" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="com.google.guava" name="guava" rev="16.0.1" transitive="false" conf="default->default(compile)">
 			<artifact name="guava" type="src" ext="jar" conf="sources" e:classifier="sources"/>

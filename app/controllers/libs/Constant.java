@@ -7,6 +7,16 @@ public class Constant {
     public static final String YAHOO_FINANCE_BASE_URL = "http://finance.yahooapis.com/v1/quote";
     public static final String NASDAQ_COMPANIES_LISTING_URL = "http://www.nasdaq.com/screening/companies-by-name.aspx?exchange=NASDAQ&render=download";
 
+    public static enum StatusCode {
+        OK(200)
+        , ERROR(500);
+
+        public final int value;
+        private StatusCode(int value) {
+            this.value = value;
+        }
+    }
+
     public static enum MarketCapType {
         NANO(50.0)
         , MICRO(300.0)

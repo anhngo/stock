@@ -4,8 +4,8 @@
 
 # Home page
 GET     /                           controllers.Application.index()
-GET     /tickers/:symbol            controllers.Application.getTicker(symbol: String)
-GET     /tickers                    controllers.Application.getTickersList(marketCapType: String, isPublic: Boolean)
+
+GET     /tickers/:symbol            controllers.API.getTickersDims(symbol: String)
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)

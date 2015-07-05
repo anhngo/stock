@@ -1,5 +1,9 @@
 package controllers.libs;
 
+import org.json.JSONObject;
+
+import java.util.List;
+
 /**
  * Created by anhngo on 4/30/15.
  */
@@ -25,5 +29,27 @@ public class Utils {
         if (marketCapValue <= Constant.MarketCapType.MID.high) return Constant.MarketCapType.MID;
         if (marketCapValue <= Constant.MarketCapType.LARGE.high) return Constant.MarketCapType.LARGE;
         return Constant.MarketCapType.MEGA;
+    }
+
+    public static Object getJSONValue(Object obj) {
+        if (obj == null)
+            return JSONObject.NULL;
+        else
+            return obj;
+    }
+
+    public static String listToString(List<String> list) {
+        if (list != null) {
+            StringBuilder builder = new StringBuilder();
+            int index = 0;
+            for (String item : list) {
+                builder.append(item);
+                if (index < list.size() - 1) {
+                    builder.append(",");
+                }
+            }
+            return builder.toString();
+        }
+        return null;
     }
 }

@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for stock#stock_2.11;1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7094f219[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c1d7a69[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.11.1[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.1 in sbt-chain[0m
@@ -1063,6 +1063,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.3.8->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.3.8->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.3.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->org.json#json;20090211 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.json#json;20090211 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.json#json;20090211 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.json#json;20090211[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.json#json;20090211[0m
+[0m[[0mdebug[0m] [0m	found org.json#json;20090211 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->org.json#json;20090211 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->org.json#json;20090211 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->org.json#json;20090211 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for stock#stock_2.11;1.0-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for stock#stock_2.11;1.0-SNAPSHOT [compile][0m
@@ -1680,6 +1689,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.3.8->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.3.8->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.3.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->org.json#json;20090211 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->org.json#json;20090211 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->org.json#json;20090211 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->org.json#json;20090211 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for stock#stock_2.11;1.0-SNAPSHOT [test][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for stock#stock_2.11;1.0-SNAPSHOT [runtime][0m
@@ -2298,6 +2311,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.3.8->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.3.8->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.3.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->org.json#json;20090211 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->org.json#json;20090211 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->org.json#json;20090211 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->org.json#json;20090211 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.3.8 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-test_2.11;2.3.8 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-test_2.11;2.3.8 {test=[default(compile)]}[0m
@@ -2657,6 +2674,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-android-driver;2.39.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.seleniumhq.selenium#selenium-android-driver;2.39.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-android-driver;2.39.0[0m
@@ -2669,6 +2689,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-remote-driver;2.39.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.seleniumhq.selenium#selenium-remote-driver;2.39.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-remote-driver;2.39.0[0m
@@ -2681,6 +2704,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving cglib#cglib-nodep;2.1_3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: cglib#cglib-nodep;2.1_3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: cglib#cglib-nodep;2.1_3[0m
@@ -2693,18 +2719,18 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.json#json;20080701 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.json#json;20080701 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.json#json;20080701[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.json#json;20080701[0m
-[0m[[0mdebug[0m] [0m	found org.json#json;20080701 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.json#json;20090211 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.json#json;20080701 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.json#json;20090211 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.seleniumhq.selenium#selenium-api;2.39.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-api;2.39.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.seleniumhq.selenium#selenium-api;2.39.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-api;2.39.0[0m
@@ -2712,11 +2738,16 @@
 [0m[[0mdebug[0m] [0m	found org.seleniumhq.selenium#selenium-api;2.39.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.seleniumhq.selenium#selenium-api;2.39.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->com.google.guava#guava;15.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->com.google.guava#guava;16.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->com.google.guava#guava;15.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->com.google.guava#guava;16.0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->org.json#json;20080701 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->org.json#json;20090211 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->org.json#json;20080701 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->org.json#json;20090211 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.apache.httpcomponents#httpclient;4.3.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -2899,6 +2930,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.apache.commons#commons-exec;1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-exec;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.commons#commons-exec;1.1[0m
@@ -2913,6 +2947,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving net.java.dev.jna#jna;3.4.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.java.dev.jna#jna;3.4.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.java.dev.jna#jna;3.4.0[0m
@@ -2925,6 +2962,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving net.java.dev.jna#platform;3.4.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.java.dev.jna#platform;3.4.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.java.dev.jna#platform;3.4.0[0m
@@ -2937,6 +2977,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-chrome-driver;2.39.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.seleniumhq.selenium#selenium-chrome-driver;2.39.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-chrome-driver;2.39.0[0m
@@ -2951,6 +2994,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0[0m
@@ -2965,6 +3011,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving net.sourceforge.htmlunit#htmlunit;2.13 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.sourceforge.htmlunit#htmlunit;2.13 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit;2.13[0m
@@ -2983,6 +3032,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving xalan#xalan;2.7.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: xalan#xalan;2.7.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: xalan#xalan;2.7.1[0m
@@ -2999,6 +3051,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving xalan#serializer;2.7.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: xalan#serializer;2.7.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: xalan#serializer;2.7.1[0m
@@ -3028,6 +3083,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving commons-collections#commons-collections;3.2.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-collections#commons-collections;3.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-collections#commons-collections;3.2.1[0m
@@ -3063,6 +3121,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpmime;4.3.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpmime;4.3.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.httpcomponents#httpmime;4.3.1[0m
@@ -3095,6 +3156,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving net.sourceforge.htmlunit#htmlunit-core-js;2.13 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.sourceforge.htmlunit#htmlunit-core-js;2.13 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit-core-js;2.13[0m
@@ -3122,6 +3186,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving net.sourceforge.nekohtml#nekohtml;1.9.19 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.sourceforge.nekohtml#nekohtml;1.9.19 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.sourceforge.nekohtml#nekohtml;1.9.19[0m
@@ -3139,6 +3206,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving net.sourceforge.cssparser#cssparser;0.9.11 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.sourceforge.cssparser#cssparser;0.9.11 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.sourceforge.cssparser#cssparser;0.9.11[0m
@@ -3155,6 +3225,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.w3c.css#sac;1.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.w3c.css#sac;1.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.w3c.css#sac;1.3[0m
@@ -3171,6 +3244,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-io#commons-io;2.2[0m
@@ -3195,6 +3271,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-websocket;8.1.12.v20130726 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-websocket;8.1.12.v20130726 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-websocket;8.1.12.v20130726[0m
@@ -3239,6 +3318,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: junit#junit;4.11 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-util;8.1.12.v20130726 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-util;8.1.12.v20130726 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;8.1.12.v20130726[0m
@@ -3281,6 +3363,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: junit#junit;4.11 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-io;8.1.12.v20130726 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-io;8.1.12.v20130726 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;8.1.12.v20130726[0m
@@ -3325,6 +3410,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: junit#junit;4.11 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-http;8.1.12.v20130726 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-http;8.1.12.v20130726 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-http;8.1.12.v20130726[0m
@@ -3347,6 +3435,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-firefox-driver;2.39.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.seleniumhq.selenium#selenium-firefox-driver;2.39.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-firefox-driver;2.39.0[0m
@@ -3365,6 +3456,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-ie-driver;2.39.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.seleniumhq.selenium#selenium-ie-driver;2.39.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-ie-driver;2.39.0[0m
@@ -3383,6 +3477,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-iphone-driver;2.39.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.seleniumhq.selenium#selenium-iphone-driver;2.39.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-iphone-driver;2.39.0[0m
@@ -3397,6 +3494,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-safari-driver;2.39.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.seleniumhq.selenium#selenium-safari-driver;2.39.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-safari-driver;2.39.0[0m
@@ -3411,6 +3511,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.webbitserver#webbit;0.4.14 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.webbitserver#webbit;0.4.14 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.webbitserver#webbit;0.4.14[0m
@@ -3438,6 +3541,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-support;2.39.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.seleniumhq.selenium#selenium-support;2.39.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-support;2.39.0[0m
@@ -3493,14 +3599,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->cglib#cglib-nodep;2.1_3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->cglib#cglib-nodep;2.1_3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.json#json;20080701 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.json#json;20080701 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.json#json;20090211 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.json#json;20090211 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.seleniumhq.selenium#selenium-api;2.39.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.seleniumhq.selenium#selenium-api;2.39.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->com.google.guava#guava;15.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->com.google.guava#guava;16.0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->com.google.guava#guava;16.0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->org.json#json;20080701 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->org.json#json;20080701 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->org.json#json;20090211 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->org.json#json;20090211 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.apache.httpcomponents#httpclient;4.3.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.apache.httpcomponents#httpclient;4.3.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->com.google.guava#guava;15.0 [runtime->runtime(*)][0m
@@ -4264,6 +4372,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.3.8->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.3.8->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.3.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->org.json#json;20090211 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->org.json#json;20090211 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->org.json#json;20090211 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->org.json#json;20090211 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for stock#stock_2.11;1.0-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for stock#stock_2.11;1.0-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
@@ -4884,6 +4996,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.3.8->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.3.8->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.3.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->org.json#json;20090211 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->org.json#json;20090211 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->org.json#json;20090211 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->org.json#json;20090211 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for stock#stock_2.11;1.0-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for stock#stock_2.11;1.0-SNAPSHOT [test-internal][0m
@@ -5504,6 +5620,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.3.8->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.3.8->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.3.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->org.json#json;20090211 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->org.json#json;20090211 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->org.json#json;20090211 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->org.json#json;20090211 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.3.8 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.3.8 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies stock#stock_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.3.8 [test->compile][0m
@@ -5647,6 +5767,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.39.0->org.seleniumhq.selenium#selenium-android-driver;2.39.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-android-driver;2.39.0->org.seleniumhq.selenium#selenium-remote-driver;2.39.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -5654,6 +5780,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-android-driver;2.39.0->org.seleniumhq.selenium#selenium-remote-driver;2.39.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->cglib#cglib-nodep;2.1_3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -5661,6 +5793,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->cglib#cglib-nodep;2.1_3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.json#json;20080701 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -5668,20 +5806,36 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.json#json;20090211 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.json#json;20080701 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.json#json;20090211 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.seleniumhq.selenium#selenium-api;2.39.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.seleniumhq.selenium#selenium-api;2.39.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->com.google.guava#guava;15.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->com.google.guava#guava;16.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->com.google.guava#guava;15.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->com.google.guava#guava;16.0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->org.json#json;20080701 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->org.json#json;20090211 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->org.json#json;20080701 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->org.json#json;20090211 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.apache.httpcomponents#httpclient;4.3.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -5832,6 +5986,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.apache.commons#commons-exec;1.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
@@ -5841,6 +6001,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->net.java.dev.jna#jna;3.4.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->net.java.dev.jna#platform;3.4.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -5848,6 +6014,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->net.java.dev.jna#platform;3.4.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.39.0->org.seleniumhq.selenium#selenium-chrome-driver;2.39.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -5855,6 +6027,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.39.0->org.seleniumhq.selenium#selenium-chrome-driver;2.39.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-chrome-driver;2.39.0->org.seleniumhq.selenium#selenium-remote-driver;2.39.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-chrome-driver;2.39.0->org.seleniumhq.selenium#selenium-remote-driver;2.39.0 [compile->compile(*)][0m
@@ -5864,6 +6042,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.39.0->org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0->org.seleniumhq.selenium#selenium-remote-driver;2.39.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0->org.seleniumhq.selenium#selenium-remote-driver;2.39.0 [compile->compile(*)][0m
@@ -5873,6 +6057,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0->net.sourceforge.htmlunit#htmlunit;2.13 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -5886,6 +6076,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->xalan#xalan;2.7.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies xalan#xalan;2.7.1->xalan#serializer;2.7.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -5897,6 +6093,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies xalan#xalan;2.7.1->xalan#serializer;2.7.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies xalan#serializer;2.7.1->xml-apis#xml-apis;1.3.04 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -5921,6 +6123,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->commons-collections#commons-collections;3.2.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
@@ -5951,6 +6159,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.9 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->org.apache.httpcomponents#httpmime;4.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.9 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
@@ -5978,6 +6192,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->net.sourceforge.htmlunit#htmlunit-core-js;2.13 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->xerces#xercesImpl;2.11.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -6000,6 +6220,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->net.sourceforge.nekohtml#nekohtml;1.9.19 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: xerces#xercesImpl;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->net.sourceforge.cssparser#cssparser;0.9.11 [compile->master(*)][0m
@@ -6012,6 +6238,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->net.sourceforge.cssparser#cssparser;0.9.11 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.cssparser#cssparser;0.9.11->org.w3c.css#sac;1.3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -6023,6 +6255,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.cssparser#cssparser;0.9.11->org.w3c.css#sac;1.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->commons-io#commons-io;2.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -6034,6 +6272,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->commons-io#commons-io;2.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
@@ -6053,6 +6297,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.eclipse.jetty#jetty-server;8.1.12.v20130726 {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.eclipse.jetty#jetty-server;7.2.2.v20101205 {provided=[compile(*), provided(*), runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->org.eclipse.jetty#jetty-websocket;8.1.12.v20130726 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.eclipse.jetty#jetty-server;8.1.12.v20130726 {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.eclipse.jetty#jetty-server;7.2.2.v20101205 {provided=[compile(*), provided(*), runtime(*), master(*)]}[0m
@@ -6092,6 +6342,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: junit#junit;4.11 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.12.v20130726->org.eclipse.jetty#jetty-util;8.1.12.v20130726 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.12.v20130726->org.eclipse.jetty#jetty-io;8.1.12.v20130726 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.eclipse.jetty#jetty-server;8.1.12.v20130726 {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.eclipse.jetty#jetty-server;7.2.2.v20101205 {provided=[compile(*), provided(*), runtime(*), master(*)]}[0m
@@ -6129,6 +6385,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: junit#junit;4.11 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.12.v20130726->org.eclipse.jetty#jetty-io;8.1.12.v20130726 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;8.1.12.v20130726->org.eclipse.jetty#jetty-util;8.1.12.v20130726 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;8.1.12.v20130726->org.eclipse.jetty#jetty-util;8.1.12.v20130726 [compile->compile(*)][0m
@@ -6168,6 +6430,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: junit#junit;4.11 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.12.v20130726->org.eclipse.jetty#jetty-http;8.1.12.v20130726 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
@@ -6185,6 +6453,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.39.0->org.seleniumhq.selenium#selenium-firefox-driver;2.39.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.39.0->org.seleniumhq.selenium#selenium-remote-driver;2.39.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.39.0->org.seleniumhq.selenium#selenium-remote-driver;2.39.0 [compile->compile(*)][0m
@@ -6198,6 +6472,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.39.0->org.seleniumhq.selenium#selenium-ie-driver;2.39.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-ie-driver;2.39.0->net.java.dev.jna#jna;3.4.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-ie-driver;2.39.0->net.java.dev.jna#jna;3.4.0 [compile->compile(*)][0m
@@ -6211,6 +6491,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.39.0->org.seleniumhq.selenium#selenium-iphone-driver;2.39.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-iphone-driver;2.39.0->org.seleniumhq.selenium#selenium-remote-driver;2.39.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-iphone-driver;2.39.0->org.seleniumhq.selenium#selenium-remote-driver;2.39.0 [compile->compile(*)][0m
@@ -6220,6 +6506,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.39.0->org.seleniumhq.selenium#selenium-safari-driver;2.39.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-safari-driver;2.39.0->org.seleniumhq.selenium#selenium-remote-driver;2.39.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-safari-driver;2.39.0->org.seleniumhq.selenium#selenium-remote-driver;2.39.0 [compile->compile(*)][0m
@@ -6229,6 +6521,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-safari-driver;2.39.0->org.webbitserver#webbit;0.4.14 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
@@ -6251,6 +6549,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.json#json;20090211 {compile=[default(compile)]} => dependency: org.json#json;20080701 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.39.0->org.seleniumhq.selenium#selenium-support;2.39.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-support;2.39.0->org.seleniumhq.selenium#selenium-api;2.39.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-support;2.39.0->org.seleniumhq.selenium#selenium-api;2.39.0 [compile->compile(*)][0m
@@ -6405,14 +6709,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->cglib#cglib-nodep;2.1_3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->cglib#cglib-nodep;2.1_3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.json#json;20080701 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.json#json;20080701 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.json#json;20090211 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.json#json;20090211 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.seleniumhq.selenium#selenium-api;2.39.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.seleniumhq.selenium#selenium-api;2.39.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->com.google.guava#guava;15.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->com.google.guava#guava;16.0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->com.google.guava#guava;16.0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->org.json#json;20080701 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->org.json#json;20080701 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->org.json#json;20090211 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.39.0->org.json#json;20090211 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.apache.httpcomponents#httpclient;4.3.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.39.0->org.apache.httpcomponents#httpclient;4.3.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-codec#commons-codec;1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-codec#commons-codec;1.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -7024,6 +7330,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java-ebean_2.11;2.3.8!play-java-ebean_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-cache_2.11;2.3.8!play-cache_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java-ws_2.11;2.3.8!play-java-ws_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.json#json;20090211!json.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-lang3;3.1!commons-lang3.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.1!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#build-link;2.3.8!build-link.jar[0m
@@ -7118,7 +7425,6 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.webbitserver#webbit;0.4.14!webbit.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.seleniumhq.selenium#selenium-remote-driver;2.39.0!selenium-remote-driver.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] cglib#cglib-nodep;2.1_3!cglib-nodep.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.json#json;20080701!json.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.seleniumhq.selenium#selenium-api;2.39.0!selenium-api.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.3.1!httpclient.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-exec;1.1!commons-exec.jar[0m
@@ -7154,7 +7460,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.1!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.11!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1725ms :: artifacts dl 48ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1792ms :: artifacts dl 42ms[0m
 [0m[[0mdebug[0m] [0m	report for stock#stock_2.11;1.0-SNAPSHOT compile produced in /Users/anhngo/pergit/stock/target/resolution-cache/reports/stock-stock_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for stock#stock_2.11;1.0-SNAPSHOT runtime produced in /Users/anhngo/pergit/stock/target/resolution-cache/reports/stock-stock_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for stock#stock_2.11;1.0-SNAPSHOT test produced in /Users/anhngo/pergit/stock/target/resolution-cache/reports/stock-stock_2.11-test.xml[0m
@@ -7168,5 +7474,5 @@
 [0m[[0mdebug[0m] [0m	report for stock#stock_2.11;1.0-SNAPSHOT docs produced in /Users/anhngo/pergit/stock/target/resolution-cache/reports/stock-stock_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for stock#stock_2.11;1.0-SNAPSHOT pom produced in /Users/anhngo/pergit/stock/target/resolution-cache/reports/stock-stock_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for stock#stock_2.11;1.0-SNAPSHOT scala-tool produced in /Users/anhngo/pergit/stock/target/resolution-cache/reports/stock-stock_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1725ms resolve - 48ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (1792ms resolve - 42ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

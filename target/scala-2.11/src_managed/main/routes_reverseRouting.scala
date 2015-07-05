@@ -1,6 +1,6 @@
 // @SOURCE:/Users/anhngo/pergit/stock/conf/routes
-// @HASH:7ab509a29c45c27ad3910b7b11470d72b8d7f0d3
-// @DATE:Thu Apr 30 16:42:13 PDT 2015
+// @HASH:75a84acebde19e7e65aaf58d8d0be77c73217d00
+// @DATE:Sat Jul 04 16:57:56 PDT 2015
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -17,9 +17,22 @@ import Router.queryString
 
 // @LINE:11
 // @LINE:8
-// @LINE:7
 // @LINE:6
 package controllers {
+
+// @LINE:8
+class ReverseAPI {
+
+
+// @LINE:8
+def getTickersDims(symbol:String): Call = {
+   import ReverseRouteContext.empty
+   Call("GET", _prefix + { _defaultPrefix } + "tickers/" + implicitly[PathBindable[String]].unbind("symbol", dynamicString(symbol)))
+}
+                        
+
+}
+                          
 
 // @LINE:11
 class ReverseAssets {
@@ -35,25 +48,9 @@ def at(file:String): Call = {
 }
                           
 
-// @LINE:8
-// @LINE:7
 // @LINE:6
 class ReverseApplication {
 
-
-// @LINE:8
-def getTickersList(): Call = {
-   import ReverseRouteContext.empty
-   Call("GET", _prefix + { _defaultPrefix } + "tickers")
-}
-                        
-
-// @LINE:7
-def getTicker(symbol:String): Call = {
-   import ReverseRouteContext.empty
-   Call("GET", _prefix + { _defaultPrefix } + "tickers/" + implicitly[PathBindable[String]].unbind("symbol", dynamicString(symbol)))
-}
-                        
 
 // @LINE:6
 def index(): Call = {
@@ -70,10 +67,27 @@ def index(): Call = {
 
 // @LINE:11
 // @LINE:8
-// @LINE:7
 // @LINE:6
 package controllers.javascript {
 import ReverseRouteContext.empty
+
+// @LINE:8
+class ReverseAPI {
+
+
+// @LINE:8
+def getTickersDims : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.API.getTickersDims",
+   """
+      function(symbol) {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "tickers/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("symbol", encodeURIComponent(symbol))})
+      }
+   """
+)
+                        
+
+}
+              
 
 // @LINE:11
 class ReverseAssets {
@@ -93,33 +107,9 @@ def at : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
-// @LINE:8
-// @LINE:7
 // @LINE:6
 class ReverseApplication {
 
-
-// @LINE:8
-def getTickersList : JavascriptReverseRoute = JavascriptReverseRoute(
-   "controllers.Application.getTickersList",
-   """
-      function() {
-      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "tickers"})
-      }
-   """
-)
-                        
-
-// @LINE:7
-def getTicker : JavascriptReverseRoute = JavascriptReverseRoute(
-   "controllers.Application.getTicker",
-   """
-      function(symbol) {
-      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "tickers/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("symbol", encodeURIComponent(symbol))})
-      }
-   """
-)
-                        
 
 // @LINE:6
 def index : JavascriptReverseRoute = JavascriptReverseRoute(
@@ -140,10 +130,22 @@ def index : JavascriptReverseRoute = JavascriptReverseRoute(
 
 // @LINE:11
 // @LINE:8
-// @LINE:7
 // @LINE:6
 package controllers.ref {
 
+
+// @LINE:8
+class ReverseAPI {
+
+
+// @LINE:8
+def getTickersDims(symbol:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.API.getTickersDims(symbol), HandlerDef(this.getClass.getClassLoader, "", "controllers.API", "getTickersDims", Seq(classOf[String]), "GET", """""", _prefix + """tickers/$symbol<[^/]+>""")
+)
+                      
+
+}
+                          
 
 // @LINE:11
 class ReverseAssets {
@@ -158,23 +160,9 @@ def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.
 }
                           
 
-// @LINE:8
-// @LINE:7
 // @LINE:6
 class ReverseApplication {
 
-
-// @LINE:8
-def getTickersList(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.Application.getTickersList(), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "getTickersList", Seq(), "GET", """""", _prefix + """tickers""")
-)
-                      
-
-// @LINE:7
-def getTicker(symbol:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.Application.getTicker(symbol), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "getTicker", Seq(classOf[String]), "GET", """""", _prefix + """tickers/$symbol<[^/]+>""")
-)
-                      
 
 // @LINE:6
 def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(

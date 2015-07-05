@@ -4,7 +4,7 @@
 		module="stock$sources_javadoc_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20150430110525"
+		publication="20150704130309"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -267,6 +267,9 @@
 			<artifact name="commons-logging" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="commons-logging" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
+		<dependency org="org.json" name="json" rev="20090211" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="json" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
 		<dependency org="com.typesafe.play" name="play-test_2.11" rev="2.3.8" transitive="false" conf="test->default(compile);test-internal->default(compile)">
 			<artifact name="play-test_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
@@ -364,10 +367,6 @@
 		</dependency>
 		<dependency org="cglib" name="cglib-nodep" rev="2.1_3" transitive="false" conf="test->default(compile);test-internal->default(compile)">
 			<artifact name="cglib-nodep" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
-		<dependency org="org.json" name="json" rev="20080701" transitive="false" conf="test->default(compile);test-internal->default(compile)">
-			<artifact name="json" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="json" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="org.seleniumhq.selenium" name="selenium-api" rev="2.39.0" transitive="false" conf="test->default(compile);test-internal->default(compile)">
 			<artifact name="selenium-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>

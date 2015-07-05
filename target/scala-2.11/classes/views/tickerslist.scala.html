@@ -10,6 +10,15 @@
     <script src="@routes.Assets.at("javascripts/hello.js")" type="text/javascript"></script>
     </head>
     <body>
-
+        @for(ticker <- tickers) {
+            <p>
+            Symbol: @ticker.symbol</br>
+            Name: @ticker.name</br>
+            Market Cap Type: @ticker.marketCapType.name()</br>
+            IPO Year: @ticker.ipoYear</br>
+            Sector: @ticker.sector</br>
+            Industry : @ticker.industry
+            </p>
+        }
     </body>
 </html>
